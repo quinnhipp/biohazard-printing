@@ -1,5 +1,3 @@
-import { Button, TextField } from "@mui/material";
-
 const Footer = () => {
   return (
     <div className="h-auto border-t-4 pt-3">
@@ -8,9 +6,12 @@ const Footer = () => {
         <div className="flex flex-col gap-48">
           <div className="flex-col gap-3 flex">
             <span className="text-[#F47234] text-lg">Contact Us</span>
-            <p>Email: biohazardprinting@gmail.com</p>
+            <p className="w-full">Email: biohazardprinting@gmail.com</p>
+            <p className="w-full">Phone: 419-544-6021</p>{" "}
           </div>
-          <div className="mt-auto">POWERED BY: QUINN HIPP</div>
+          <div className="text-sm justify-center flex font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
+            POWERED BY: QUINN HIPP
+          </div>
         </div>
       </div>
       {/* Mobile Footer */}

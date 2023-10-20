@@ -2,26 +2,21 @@
 import Image from "next/image";
 import MobileNav from "../components/mobileNav";
 import Navbar from "../components/navbar";
-import biohazardPrinting from "../../public/biohazardPrinting.jpg";
-import Link from "next/link";
+import bioLogo from "../../public/bioLogo.jpg";
 import Footer from "../components/footer";
 
-const Band = () => {
+const About = () => {
   return (
-    <div className="md:w-[99vw] overflow-x-hidden">
-      <div className="h-auto md:[h-screen] w-screen flex flex-col items-center justify-between z-0">
-        <div className="border-b-8 mb-10">
-          <Navbar activePage="The Band" />
+    <div className="">
+      <div className="h-auto md:h-screen w-screen md:w-[99vw] overflow-x-hidden flex flex-col items-center justify-between z-0">
+        <div className="mb-10">
+          <Navbar activePage="About" />
           <div className="flex z-10 justify-center items-center flex-col mt-3 md:mt-8 mb-10">
-            <Image
-              src={biohazardPrinting}
-              alt=""
-              className="w-3/4 md:w-1/3 mt-8 mb-8"
-            />
+            <Image src={bioLogo} alt="" className="w-3/4 md:w-fit mt-8 mb-8" />
           </div>
           <div className="m-5 font-sans">
             <p className="text-5xl ml-10 mb-7 w-fit text-[#7E84F7] font-bold bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent">
-              The Band
+              About
             </p>
             <div className="md:flex gap-8 justify-between">
               <div className="mt-8 md:w-1/5">
@@ -59,22 +54,13 @@ const Band = () => {
                   series created by Leslie Greif and Paul Haggis.
                 </p>
               </div>
-              <div className="mt-8 md:w-1/5">
-                <p className="text-[#7E84F7] text-xl">Josiah Meyer</p>
-                <p className="text-[#7E84F7] text-lg">// bass</p>
-                <p className="text-base mt-3">
-                  Originating from the concept in Judaism, the messiah in
-                  Christianity is called the Christ—from Greek khristós
-                  (χριστός), translating the Hebrew word of the same meaning.
-                </p>
-              </div>
             </div>
           </div>
         </div>
         <Footer />
       </div>
-      <MobileNav activePage="The Band" />
+      <MobileNav activePage="About" />
     </div>
   );
 };
-export default Band;
+export default About;

@@ -39,37 +39,38 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
             }
           />
           <BottomNavigationAction
-            label="The Band"
+            label="About"
             icon={<GroupsIcon />}
-            href="band"
+            href="about"
             className={
-              activePage === "The Band" ? "text-[#7E84F7]" : "text-[#00000099]"
+              activePage === "About" ? "text-[#7E84F7]" : "text-[#00000099]"
             }
           />
-          <BottomNavigationAction
-            label="Listen"
-            icon={<HeadphonesIcon />}
-            href="listen"
-            className={
-              activePage === "Listen" ? "text-[#7E84F7]" : "text-[#00000099]"
-            }
-          />
-
-          <BottomNavigationAction
-            label="Gigs"
-            icon={<LocationOnIcon />}
-            href="gigs"
-            className={
-              activePage === "Gigs" ? "text-[#7E84F7]" : "text-[#00000099]"
-            }
-          />
-
           <BottomNavigationAction
             label="Gallery"
             icon={<ImageIcon />}
             href="/gallery"
             className={
               activePage === "Gallery" ? "text-[#7E84F7]" : "text-[#00000099]"
+            }
+          />
+          <BottomNavigationAction
+            label="Testimonials"
+            icon={<HeadphonesIcon />}
+            href="testimonials"
+            className={
+              activePage === "Testimonials"
+                ? "text-[#7E84F7]"
+                : "text-[#00000099]"
+            }
+          />
+
+          <BottomNavigationAction
+            label="Payment"
+            icon={<LocationOnIcon />}
+            href="payment"
+            className={
+              activePage === "Payment" ? "text-[#7E84F7]" : "text-[#00000099]"
             }
           />
         </BottomNavigation>
