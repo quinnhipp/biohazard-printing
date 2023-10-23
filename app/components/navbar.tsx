@@ -10,7 +10,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
         <li>
           <Link
             href="/"
-            className={activePage === "Home" ? "text-[#6FF78B]" : "text-white"}
+            className={activePage === "Home" ? "text-[#F47234]" : "text-white"}
           >
             <div>Home</div>
           </Link>
@@ -18,7 +18,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
         <li>
           <Link
             href="/about"
-            className={activePage === "About" ? "text-[#6FF78B]" : "text-white"}
+            className={activePage === "About" ? "text-[#F47234]" : "text-white"}
           >
             <div>About</div>
           </Link>
@@ -27,7 +27,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
           <Link
             href="/gallery"
             className={
-              activePage === "Gallery" ? "text-[#6FF78B]" : "text-white"
+              activePage === "Gallery" ? "text-[#F47234]" : "text-white"
             }
           >
             <div>Gallery</div>
@@ -37,7 +37,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
           <Link
             href="/testimonials"
             className={
-              activePage === "Testimonials" ? "text-[#6FF78B]" : "text-white"
+              activePage === "Testimonials" ? "text-[#F47234]" : "text-white"
             }
           >
             <div>Testimonials</div>
@@ -47,7 +47,7 @@ const Navbar = ({ activePage }: { activePage: string }) => {
           <Link
             href="/payment"
             className={
-              activePage === "Payment" ? "text-[#6FF78B]" : "text-white"
+              activePage === "Payment" ? "text-[#F47234]" : "text-white"
             }
           >
             <div>Payment</div>

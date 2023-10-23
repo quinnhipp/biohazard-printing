@@ -12,7 +12,7 @@ const Gallery = () => {
         <div>
           <Navbar activePage="Gallery" />
           <div className="m-5 font-sans">
-            <p className="text-5xl ml-10 mb-7 w-fit text-[#7E84F7] font-bold bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent">
+            <p className="text-5xl ml-10 mb-7 w-fit font-bold bg-gradient-to-t from-[#F47234] to-gray-400 bg-clip-text text-transparent">
               Gallery
             </p>
             <StandardImageList />

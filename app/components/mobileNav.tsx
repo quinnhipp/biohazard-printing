@@ -34,7 +34,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
             icon={<HomeIcon />}
             href="/"
             className={
-              activePage === "Home" ? "text-[#7E84F7]" : "text-[#00000099]"
+              activePage === "Home" ? "text-[#F47234]" : "text-[#00000099]"
             }
           />
           <BottomNavigationAction
@@ -42,7 +42,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
             icon={<PersonIcon />}
             href="about"
             className={
-              activePage === "About" ? "text-[#7E84F7]" : "text-[#00000099]"
+              activePage === "About" ? "text-[#F47234]" : "text-[#00000099]"
             }
           />
           <BottomNavigationAction
@@ -50,7 +50,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
             icon={<ImageIcon />}
             href="/gallery"
             className={
-              activePage === "Gallery" ? "text-[#7E84F7]" : "text-[#00000099]"
+              activePage === "Gallery" ? "text-[#F47234]" : "text-[#00000099]"
             }
           />
           <BottomNavigationAction
@@ -59,7 +59,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
             href="testimonials"
             className={
               activePage === "Testimonials"
-                ? "text-[#7E84F7]"
+                ? "text-[#F47234]"
                 : "text-[#00000099]"
             }
           />
@@ -69,7 +69,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
             icon={<PaymentIcon />}
             href="payment"
             className={
-              activePage === "Payment" ? "text-[#7E84F7]" : "text-[#00000099]"
+              activePage === "Payment" ? "text-[#F47234]" : "text-[#00000099]"
             }
           />
         </BottomNavigation>

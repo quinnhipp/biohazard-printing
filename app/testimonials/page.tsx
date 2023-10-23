@@ -2,7 +2,6 @@
 import Footer from "../components/footer";
 import MobileNav from "../components/mobileNav";
 import Navbar from "../components/navbar";
-import Link from "next/link";
 import TestimonialCard from "../components/testimonialCard";
 
 const Testimonials = () => {
@@ -12,10 +11,13 @@ const Testimonials = () => {
         <div>
           <Navbar activePage="Testimonials" />
           <div className="m-5 font-sans">
-            <p className="text-5xl ml-10 mb-7 w-fit text-[#7E84F7] font-bold bg-gradient-to-tr from-[#7E84F7] to-[#6FF78B] bg-clip-text text-transparent">
+            <p className="text-5xl ml-10 mb-7 w-fit font-bold bg-gradient-to-t from-[#F47234] to-gray-400 bg-clip-text text-transparent">
               Testimonials
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex flex-col md:flex-row gap-4 columns-2"> */}
+            <div className="md:grid md:grid-cols-2 gap-4 gap-y-8 flex-col flex">
+              <TestimonialCard />
+              <TestimonialCard />
               <TestimonialCard />
               <TestimonialCard />
             </div>

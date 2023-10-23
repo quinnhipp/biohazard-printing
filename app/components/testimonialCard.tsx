@@ -4,11 +4,11 @@ import bioLogo from "../../public/bioLogo.jpg";
 const TestimonialCard = () => {
   return (
     <>
-      <div className="md:w-1/2 md:h-1/2">
+      <div className="">
         <Image
           src={bioLogo}
           alt=""
-          className="w-1/5 h-1/5 rounded-full ml-auto mr-auto"
+          className="w-1/6 h-w-1/6 rounded-full ml-auto mr-auto"
         />
         <div className="bg-gray-300 text-black rounded-lg">
           <div>
