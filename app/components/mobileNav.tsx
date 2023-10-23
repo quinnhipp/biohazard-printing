@@ -1,11 +1,10 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import HomeIcon from "@mui/icons-material/Home";
-import HeadphonesIcon from "@mui/icons-material/Headphones";
-import GroupsIcon from "@mui/icons-material/Groups";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+import ReviewsIcon from "@mui/icons-material/Reviews";
+import PersonIcon from "@mui/icons-material/Person";
+import PaymentIcon from "@mui/icons-material/Payment";
 import ImageIcon from "@mui/icons-material/Image";
 import Paper from "@mui/material/Paper";
 
@@ -40,7 +39,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
           />
           <BottomNavigationAction
             label="About"
-            icon={<GroupsIcon />}
+            icon={<PersonIcon />}
             href="about"
             className={
               activePage === "About" ? "text-[#7E84F7]" : "text-[#00000099]"
@@ -56,7 +55,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
           />
           <BottomNavigationAction
             label="Testimonials"
-            icon={<HeadphonesIcon />}
+            icon={<ReviewsIcon />}
             href="testimonials"
             className={
               activePage === "Testimonials"
@@ -67,7 +66,7 @@ const MobileNav = ({ activePage }: { activePage: string }) => {
 
           <BottomNavigationAction
             label="Payment"
-            icon={<LocationOnIcon />}
+            icon={<PaymentIcon />}
             href="payment"
             className={
               activePage === "Payment" ? "text-[#7E84F7]" : "text-[#00000099]"

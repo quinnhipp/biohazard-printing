@@ -1,7 +1,6 @@
-import { Headset, YouTube, Apple, Facebook } from "@mui/icons-material";
+import { YouTube, Facebook, Pinterest } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
-import { faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faEtsy, faTiktok } from "@fortawesome/free-brands-svg-icons";
 
 const Socials = () => {
   return (
@@ -30,6 +29,20 @@ const Socials = () => {
           style={{ color: "#ffffff" }}
           size="lg"
         />
+      </a>
+      <a
+        href="https://www.pinterest.com/biohazardprinting/"
+        target="_blank"
+        className="hover:bg-red-600 rounded-full"
+      >
+        <Pinterest />
+      </a>
+      <a
+        href="https://biohazardprinting.etsy.com/"
+        target="_blank"
+        className="hover:bg-[#eb6d20] rounded-full"
+      >
+        <FontAwesomeIcon icon={faEtsy} style={{ color: "#ffffff" }} size="lg" />
       </a>
     </div>
   );

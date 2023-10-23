@@ -14,6 +14,16 @@ const Home = () => {
         <div className="flex bg-transparent z-10 w-full justify-center items-center flex-col mt-3 md:mt-8 mb-10">
           <Image src={biohazardPrinting} alt="" className="w-full" />
         </div>
+        <div className="font-sans px-5 mb-10">
+          <div className="text-3xl mb-2">Welcome!</div>
+          <div className="text-gray-400">
+            Thank you for visiting! If you're looking for a custom, unique piece
+            that will last a lifetime, you've got the right place. I specialize
+            in 3D Printing, Laser Engraving, and have plans to start custom
+            printing t-shirts, hats, bags, etc. I can print custom logos, sports
+            team logos, or any other idea that you may have.
+          </div>
+        </div>
         <Footer />
       </div>
       <MobileNav activePage="Home" />
@@ -21,9 +31,3 @@ const Home = () => {
   );
 };
 export default Home;
-
-// Home
-// About - idk yet
-// Gallery
-// Payments - Square
-// Testemonials
