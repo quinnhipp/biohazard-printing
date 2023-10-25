@@ -10,7 +10,9 @@ const Footer = () => {
             <p className="w-full">Phone: 419-544-6021</p>{" "}
           </div>
           <div className="text-sm justify-center flex font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
-            POWERED BY: QUINN HIPP
+            <a href="https://www.qhipp.dev/" target="_blank">
+              POWERED BY: QUINN HIPP
+            </a>
           </div>
         </div>
       </div>
@@ -24,7 +26,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-sm justify-center flex font-bold bg-gradient-to-tr from-[#FF5F6D] to-[#FFC371] bg-clip-text text-transparent animate-gradient-xy">
-          POWERED BY: QUINN HIPP
+          <a href="https://www.qhipp.dev/" target="_blank">
+            POWERED BY: QUINN HIPP
+          </a>
         </div>
       </div>
     </div>
