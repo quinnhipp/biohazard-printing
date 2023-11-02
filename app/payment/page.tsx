@@ -16,7 +16,8 @@ const Payment = () => {
             </div>
             <Button
               className="bg-gradient-to-t from-[#F47234] to-gray-400 rounded-full text-black text-xl font-bold w-44 md:w-36 md:h-16 py-2 px-4"
-              href="/payment"
+              href="https://square.link/u/9sJimD5O"
+              target="_blank"
             >
               Pay Now
             </Button>

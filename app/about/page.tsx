@@ -19,10 +19,10 @@ const About = () => {
               <Image
                 src={bioLogo}
                 alt=""
-                className="w-3/4 md:w-full mt-8 mb-8 pl-4"
+                className="w-3/4 md:w-full mt-8 md:mt-0 mb-8 pl-4"
               />
             </div>
-            <div className="m-5 font-sans text-gray-400 md:w-full md:border-l-2 px-2 md:pl-4 md:pr-4">
+            <div className="m-5 font-sans text-gray-400 text-xl md:w-full md:border-l-2 px-2 md:pl-4 md:pr-4">
               <div className="">
                 My name is Derek. and I am a 34 year old man that lives in
                 northern Ohio with my wife and kids. I have a full-time day job
