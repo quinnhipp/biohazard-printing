@@ -49,9 +49,9 @@ const Testimonials = () => {
               Testimonials
             </p>
             {/* <div className="flex flex-col md:flex-row gap-4 columns-2"> */}
-            <div className="md:grid md:grid-cols-2 gap-4 gap-y-8 flex-col flex">
+            <div className="md:grid md:grid-cols-2 gap-4 gap-y-8 flex-col flex md:w-3/5 md:items-baseline md:ml-auto md:mr-auto">
               {data.map((item) => (
-                <TestimonialCard {...item} />
+                <TestimonialCard {...item} key={item.review} />
               ))}
             </div>
           </div>
